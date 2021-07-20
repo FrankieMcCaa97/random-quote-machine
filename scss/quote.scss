@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body {
+    background: red;
+    font-family: 'Otomanopee One', sans-serif;
+}
+#wrapper{
+    #quote-box{
+        background: white;
+        width: 20%;
+        padding: 10%;
+        border-radius: 5%;
+        font-size: 20px;
+        position: absolute;
+        left: 436px;
+        top: 101px;
+        #author{
+            margin-left: 279px;
+        }
+    }
+    #buttons{
+        position: relative;
+        top: 52px;
+        left: 47px;
+        #new-quote{
+            border: none;
+            background: red;
+            padding: 7%;
+            font-size: 19px;
+            border-radius: 6%;
+            position: relative;
+            left: -120px;
+            cursor: pointer;
+            margin-top: -30px;
+        }
+        #new-quote:hover{
+            background: orangered;
+            transition: .3s;
+        }
+        #tweet-quote{
+            text-decoration: none;
+            color: red;
+            position: absolute;
+        }
+    }
+}
